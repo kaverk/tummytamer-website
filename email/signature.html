@@ -1,0 +1,174 @@
+﻿<!DOCTYPE html>
+<style>
+    body {
+        display: flex;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-color: #7681B3;
+    }
+
+    .presentational-container {
+        padding: 20px;
+        box-shadow: 2px 2px 10px 5px;
+        background-color: #fff;
+    }
+
+    table {
+        background: none;
+        margin: 0;
+        padding: 10px 10px 0;
+        border-width: 0 0 0 0;
+        border-style: solid;
+        border-color: #232C9F;
+    }
+
+    tr.outer-row td.headshot-cell {
+        padding: 0 8px 0 0;
+    }
+
+    td.headshot-cell a {
+        text-decoration: none;
+    }
+
+    td.headshot-cell img {
+        vertical-align: middle;
+        width: 80px;
+        border-radius: 100%;
+    }
+
+    td.description-cell {
+        padding: 0 0 0 8px;
+    }
+
+        td.description-cell > table {
+            background: none;
+            border: 0px;
+            margin: 0;
+            padding: 0;
+        }
+
+    td.full-name {
+        font-weight: bold;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    td.title {
+        padding-bottom: 0px;
+        color: #333333;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+    }
+
+    td.website {
+        padding-bottom: 10px;
+        vertical-align: top;
+        color: #333333;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+        td.website a {
+            color: #4BAFDB;
+            text-decoration: none;
+            font-weight: normal;
+            font-size: 14px;
+        }
+
+    td.social-icons {
+        padding-top: 5px;
+    }
+
+        td.social-icons ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            height: 25px;
+        }
+
+        td.social-icons li {
+            display: inline-block;
+        }
+
+        td.social-icons a {
+            text-decoration: none;
+        }
+
+        td.social-icons img {
+            width: 25px;
+            height: 25px;
+        }
+
+        .dividing-line {
+            height: 120px;
+            width: 2px;
+            background-color: steelblue;
+        }
+
+    td.ratings {
+        padding-bottom: 0px;
+        color: #333333;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .badge-link {
+        float:left;
+        display: block;
+        margin-top: 3px;
+    }
+</style>
+<html>
+<body>
+    <div style="padding: 20px; box-shadow: 2px 2px 10px 5px; background-color: #fff;">
+        <table role="presentation">
+            <tbody>
+                <tr style="padding: 0 8px 0 0;">
+                    <td style="padding: 0 8px 0 0;">
+                        <a href="https://www.seespotbid.app" style="text-decoration: none;">
+                            <img src="https://seespotbid.app/img/spothead.png" name="preview-image-url" style="vertical-align: middle; width: 80px; border-radius: 100%;"/>
+                        </a>
+                    </td>
+                    <td>
+                        <div style="height: 120px; width: 2px; background-color: steelblue;"/>
+                    </td>
+                    <td style="padding: 0 0 0 8px;">
+                        <table role="presentation" style="background: none; border: 0px; margin: 0; padding: 0;">
+                            <tbody>
+                                <tr style="padding: 0 0 0 0">
+                                    <td colspan="2" style="font-weight: bold; font-size: 18px; font-family: Tahoma, Helvetica, sans-serif;">Tom</td>
+                                </tr>
+                                <tr style="padding: 0 0 0 0">
+                                    <td colspan="2" style="padding-bottom: 0px; color: #333333; font-size: 14px; font-family: Tahoma, Helvetica, sans-serif; font-style: italic;">SeeSpotBid Support</td>
+                                </tr>
+                                <tr>
+                                    <td valign="top" style="padding-bottom: 10px; vertical-align: top; color: #333333; font-size: 14px; font-family: Tahoma, Helvetica, sans-serif;">
+                                        <a style="color: #4BAFDB; text-decoration: none; font-weight: normal; font-size: 14px;" href="https://www.seespotbid.app">www.seespotbid.app</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <!-- Social Icons found here: https://www.flaticon.com/packs/social-media-color -->
+                                    <td colspan="2" style="padding-bottom: 0px; color: #333333; font-size: 14px; font-family: Tahoma, Helvetica, sans-serif;">
+                                        <label>Enjoying our app? Leave a review!</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="float:left; display: block; margin-top: 3px;">
+                                        <a href="https://apps.apple.com/us/app/seespotbid/id1452120217?ls=1"><img src="https://seespotbid.app/img/app-store-badge.svg" height="30"></a>
+                                    </td>
+                                    <td style="float:left; display: block; margin-top: 3px;">
+                                        <a href="https://play.google.com/store/apps/details?id=com.kaverk.seespotbid&hl=en_US"><img src="https://seespotbid.app/img/google-play-badge.svg" height="30"></a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
