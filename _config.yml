@@ -37,7 +37,7 @@ features                                  :
 
   - title                                 : Easy Data Entry
     description                           : We designed Tummy Tamer to be the quickest, easiest food diary app there is.
-    fontawesome_icon_name                 : burger
+    fontawesome_icon_name                 : utensils
     
   - title                                 : Go Beyond Food
     description                           : Track other metrics that affect your tummy like stress, exercise, medications, and BMs.
@@ -45,7 +45,7 @@ features                                  :
     
   - title                                 : Detailed or Broad
     description                           : Want to track all ingredients? Great. Want general meal notes instead? Awesome! We support any level of detail.
-    fontawesome_icon_name                 : circle-info
+    fontawesome_icon_name                 : info
 
   - title                                 : See Trends
     description                           : Quickly view past meal info in graphical form to spot food triggers and symptom patterns.
