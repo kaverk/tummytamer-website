@@ -1,19 +1,19 @@
 #page title
-page_title                                : Tummy Tamer - Food Diary and Symptom Tracker                                       # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title                                : Tummy Tamer - Food Diary and Digestive Symptom Tracker                                       # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
-ios_app_id                                : 1234793120                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+ios_app_id                                :                                 # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
 ios_app_country                           : us                                        # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 
-appstore_link                             : https://apps.apple.com/us/app/seespotbid/id1452120217?ls=1                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
-playstore_link                            : https://play.google.com/store/apps/details?id=com.kaverk.seespotbid&hl=en_US                                          # Enter Google Play Store URL.
-presskit_download_link                    : https://tummytamer.app                                         # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
+appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
+playstore_link                            :                                          # Enter Google Play Store URL.
+presskit_download_link                    :                                          # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
 app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Track what you put into your body to find food triggers and sensitivities.
+app_description                           : "COMING SOON - CURRENTLY IN BEST TESTING\nTrack your meals to find food triggers and sensitivities."
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -39,13 +39,13 @@ features                                  :
     description                           : We designed Tummy Tamer to be the quickest, easiest food diary app there is.
     fontawesome_icon_name                 : utensils
     
+  - title                                 : The Details You Need
+    description                           : Want to track all ingredients? Great. Just general meal notes? Sure thing. We support both. 
+    fontawesome_icon_name                 : info
+    
   - title                                 : Go Beyond Food
     description                           : Track other metrics that affect your tummy like stress, exercise, medications, and BMs.
     fontawesome_icon_name                 : capsules
-    
-  - title                                 : Detailed or Broad
-    description                           : Want to track all ingredients? Great. Just general meal notes? Sure thing. We support both. 
-    fontawesome_icon_name                 : info
 
   - title                                 : See Trends
     description                           : Quickly view past meal info in graphical form to spot food triggers and symptom patterns.
