@@ -43,13 +43,13 @@ features                                  :
     description                           : Want to track all ingredients? Great. Just general meal notes? Sure thing. We support both. 
     fontawesome_icon_name                 : info
     
+  - title                                 : Trends at a Glance
+    description                           : Quickly view past meal info in graphical form to spot food triggers and symptom patterns.
+    fontawesome_icon_name                 : chart-line
+    
   - title                                 : Go Beyond Food
     description                           : Track other metrics that affect your tummy like stress, exercise, medications, and BMs.
     fontawesome_icon_name                 : capsules
-
-  - title                                 : See Trends
-    description                           : Quickly view past meal info in graphical form to spot food triggers and symptom patterns.
-    fontawesome_icon_name                 : chart-line
 
   - title                                 : Generate Reports
     description                           : Create a report of all your data for your own records or to share with your health professional. (COMING SOON)
@@ -58,10 +58,6 @@ features                                  :
   - title                                 : Meal Reminders
     description                           : Get reminders to enter your data after each meal, or just once a day. 
     fontawesome_icon_name                 : bell
-  
-  - title                                 : More Features Coming
-    description                           : We've got all sorts of great ideas to continue making this the best food diary app available.
-    fontawesome_icon_name                 : star
 
 
 
@@ -71,9 +67,9 @@ topbar_color                              : "#000000"
 topbar_transparency                       : 0.1
 topbar_title_color                        : "#ffffff"
 
-cover_image                               : assets/top-view-dishes-with-pasta-glass-wine.jpg                    # Replace with alternative image path or image URL.
+cover_image                               : assets/meal-background.jpg                    # Replace with alternative image path or image URL.
 cover_overlay_color                       : "#363b3d"
-cover_overlay_transparency                : 0.7
+cover_overlay_transparency                : 0.8
 
 device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
 
