@@ -141,4 +141,5 @@ This content has been adapted with permission from the Automattic.com [Privacy P
 ## Version History
 * June 8 22, 2020 - Initial release
 
+<br>
 © Kaverk LLC 2022. All Rights Reserved.
