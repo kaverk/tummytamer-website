@@ -139,7 +139,7 @@ Although most changes are likely to be minor, Kaverk may change its Privacy Poli
 This content has been adapted with permission from the Automattic.com [Privacy Policy](https://automattic.com/privacy/), which is released under the [Creative Commons Sharealike License 4.0](https://creativecommons.org/licenses/by/4.0/legalcode) and available on [Github](https://github.com/Automattic/legalmattic). We would like to thank Automattic for their generosity in sharing this and similar documents.
 
 ## Version History
-* June 8 22, 2020 - Initial release
+* June 8, 2022 - Initial release
 
 <br>
 © Kaverk LLC 2022. All Rights Reserved.
