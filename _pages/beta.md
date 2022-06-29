@@ -8,7 +8,7 @@ include_in_header: false
 Tummy Tamer has entered the public beta testing phase. Find the information you need below.
 
 ## What is Tummy Tamer?
-Tummy Tamer is a free food diary app meant to help you uncover food sensitivities and triggers. There are lots of digestive issues out there, and our app makes it easy to uncover how certain foods, drinks, and other factors affect your stomach and gut. Check out our [home page](https://tummytamer.app) for a list of features.
+Tummy Tamer is a free food diary app meant to help you uncover food sensitivities and triggers. There are lots of digestive issues out there, and our app makes it easy to uncover how certain foods, drinks, and other factors affect your stomach and gut biome. Check out our [home page](https://tummytamer.app) for a list of features.
 
 ## How to Join the Beta 
 You can download Tummy Tamer at the following links. Apple distributes all beta apps through TestFlight, so the iOS link will walk you through how to download that.
