@@ -7,7 +7,7 @@ include_in_header: false
 # Privacy Policy
 
 **Last updated**  
-June 29, 2022
+July 20, 2022
 
 Your privacy is critically important to us at Kaverk LLC. We are committed to protecting your personal information and right to privacy. If you have any questions about the policy below, please contact us using the “How to Reach Us” section below.
 
@@ -24,7 +24,7 @@ We only collect information about you if we have a reason to do so: For example,
 #### Information You Provide To Us
 
 We collect information that you provide to us. The amount and type of information depends on the context and how we use the information. Here are some examples:
-* **Diet and Health Data:** Any data you enter in the app may also be stored on our servers, but always in a secure manner using encryption.
+* **App Input:** Any data you enter in the app may also be stored on our servers and used for anonymized processing and analysis, but always in a secure manner using encryption.
 * **Communications with Us:** You may also provide us information when you contact our support team, including your app usage, data entered, or mobile device information.
 
 #### Information We Collect Automatically
@@ -141,6 +141,7 @@ This content has been adapted with permission from the Automattic.com [Privacy P
 ## Version History
 * June 8, 2022 - Initial release
 * June 29, 2022 - Fixed some spelling and grammar issues, with no change to the meaning.
+* July 20, 2022 - Clarified collection of app data.
 
 <br>
 © Kaverk LLC 2022. All Rights Reserved.
