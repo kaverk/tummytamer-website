@@ -52,7 +52,7 @@ features                                  :
     fontawesome_icon_name                 : capsules
 
   - title                                 : Generate Reports
-    description                           : Create a report of all your data for your own records or to share with your health professional. (COMING SOON)
+    description                           : Create a PDF of all your data for your own records or to share with your health professional.
     fontawesome_icon_name                 : file-contract
 
   - title                                 : Meal Reminders
