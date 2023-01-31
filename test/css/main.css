@@ -82,7 +82,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6,
   box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px -1px; }
 
 .aa-price-package .aa-price {
-  padding-bottom: 1.5rem;
+  padding-bottom: 0rem;
   background-color: #F5FAFD; }
   .aa-price-package .aa-price .btn {
     width: 8rem; }
