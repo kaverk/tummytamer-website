@@ -5,6 +5,8 @@
       "Email": "john.doe@example.com",
       "Website": "http://www.johndoe.com",
       "ImageUrl": "https://tummytamer.app/images/melissa_h.jpg",
+	  "ImageHeight": "90",
+	  "ImageWidth": "90",
 	  "ImageMargin": "0,50,0,0",
       "Bio": "Experienced professional in the field. I do lots of things in this field and am always active in it. I am not sure what this field is, but I love talking about it to the extent that I am able to keep going and going and just don't stop and I don't know why. My friends know I am active and experienced.",
       "Specialties": ["Specialty A", "Specialty B"],
