@@ -1,4 +1,18 @@
 [
+     {
+      "Name": "Melissa H",
+      "Certifications": ["NTP (Nutritional Therapy Practitioner", "Yoga Therapist"],
+      "Email": "jane.smith@example.com",
+      "Website": "https://optimallivingsalem.com/",
+      "ImageUrl": "https://tummytamer.app/images/melissa_h.jpg",
+      "ImageHeight": 120,
+      "ImageWidth": 120,
+      "ImageMargin": "0,15,0,0",
+      "Bio": "I am a nutritional therapist, yoga therapist, and health educator who believes in lifestyle therapy. I advocate for the healing modalities of real food nutrition and mindful yoga. I support each person individually with the care and guidance they deservce to activate their mind and body's innate capacity to heal.",
+      "Specialties": ["Auto-immune and anti-inflammatory", "Digestive and gut health", "Metabolic health", "Blood sugar regulation", "Nervous system regulation and relaxation", "Adaptive, restorative, and therapeutic yoga"],
+      "Services": ["Individual nutritional counseling", "Therapeutic and Restorative Yoga"],
+      "States": []
+    },
     {
       "Name": "Dana D",
       "Certifications": ["RDN (Registered Dietician Nutritionist)", "CSP (Certified Specialist in Pediatric Nutrition)", "CDCES (Certified Diabetes Care & Education Specialist)", "CLC (Certified Lactation Counselor)"],
@@ -12,20 +26,6 @@
       "Specialties": ["Pediatrics", "Lactation", "Diabetes Prevention and Education", "IBS and Digestive Issues"],
       "Services": ["90-min consultation", "60-min follow-up", "30-min follow-up"],
       "States": ["CO", "CA", "MD", "OR", "NV", "VT", "MA", "NH", "AZ"]
-    },
-    {
-      "Name": "Melissa H",
-      "Certifications": ["NTP (Nutritional Therapy Practitioner", "Yoga Therapist"],
-      "Email": "jane.smith@example.com",
-      "Website": "https://optimallivingsalem.com/",
-      "ImageUrl": "https://tummytamer.app/images/melissa_h.jpg",
-      "ImageHeight": 120,
-      "ImageWidth": 120,
-      "ImageMargin": "0,15,0,0",
-      "Bio": "I am a nutritional therapist, yoga therapist, and health educator who believes in lifestyle therapy. I advocate for the healing modalities of real food nutrition and mindful yoga. I support each person individually with the care and guidance they deservce to activate their mind and body's innate capacity to heal.",
-      "Specialties": ["Auto-immune and anti-inflammatory", "Digestive and gut health", "Metabolic health", "Blood sugar regulation", "Nervous system regulation and relaxation", "Adaptive, restorative, and therapeutic yoga"],
-      "Services": ["Individual nutritional counseling", "Therapeutic and Restorative Yoga"],
-      "States": []
     },
     {
       "Name": "Nasira C",
