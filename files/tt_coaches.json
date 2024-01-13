@@ -1,16 +1,17 @@
 [
     {
       "Name": "John Doe",
-      "Certifications": ["Certification A", "Certification B", "Certification Letter See", "Another One Goes Here"],
+      "Certifications": ["RDN (Registered Dietician Nutritionist)", "CSP (Certified Specialist in Pediatric Nutrition)", "CDCES (Certified Diabetes Care & Education Specialist)", "CLC (Certified Lactation Counselor)"],
       "Email": "john.doe@example.com",
       "Website": "http://www.johndoe.com",
       "ImageUrl": "https://tummytamer.app/images/melissa_h.jpg",
       "ImageHeight": 120,
       "ImageWidth": 120,
       "ImageMargin": "0,15,0,0",
-      "Bio": "Experienced professional in the field. I do lots of things in this field and am always active in it. I am not sure what this field is, but I love talking about it to the extent that I am able to keep going and going and just don't stop and I don't know why. My friends know I am active and experienced.",
-      "Specialties": ["Specialty A", "Specialty B"],
-      "Services": ["Service X", "Service Y"]
+      "Bio": "I am a registered dietitian and certified health coach with a variety of experiences and areas of expertise based on my 13 years of experience counseling patients and families on nutrition. I support my patients (of ALL ages) in making changes at a pace that is comfortable for them and help when it's time to dig in to discover inner motivation. My patients tell me they love my conversational demeanor and practical approach to nutrition, and I thoroughly enjoy helping them discover the eating style that will help them feel comfortable, thrive in health, and succeed in all areas of life.",
+      "Specialties": ["Pediatrics", "Lactation", "Diabetes Prevention and Education", "IBS and Digestive Issues"],
+      "Services": ["Service X", "Service Y"],
+      "States": "CO", "CA", "MD", "OR", "NV", "VT", "MA", "NH", "AZ"
     },
     {
       "Name": "Jane Smith",
