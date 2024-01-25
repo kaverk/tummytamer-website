@@ -1,14 +1,14 @@
 [
      {
       "Name": "Melissa H",
-      "Certifications": ["NTP (Nutritional Therapy Practitioner)", "Yoga Therapist"],
+      "Certifications": ["NTP (Nutritional Therapy Practitioner)", "Health Educator", "Yoga Therapist"],
       "Email": "jane.smith@example.com",
       "Website": "https://optimallivingsalem.com/",
       "ImageUrl": "https://tummytamer.app/images/melissa_h.jpg",
-      "Bio": "I am a nutritional therapist, yoga therapist, and health educator who believes in lifestyle therapy. I advocate for the healing modalities of real food nutrition and mindful yoga. I support each person individually with the care and guidance they deserve to activate their mind and body's innate capacity to heal.",
+      "Bio": "I believe in lifestyle therapy and advocate for the healing modalities of real food nutrition and mindful yoga. I support each person individually with the care and guidance they deserve to activate their mind and body's innate capacity to heal.",
       "Specialties": ["Auto-immune and anti-inflammatory", "Digestive and gut health", "Metabolic health", "Blood sugar regulation", "Nervous system regulation and relaxation", "Adaptive, restorative, and therapeutic yoga"],
       "Services": ["Individual nutritional counseling", "Therapeutic and Restorative Yoga"],
-      "States": []
+      "States": ["AZ", "CA", "CO", "MI", "OR", "VA"]
     },
     {
       "Name": "Dana D",
@@ -16,7 +16,7 @@
       "Email": "john.doe@example.com",
       "Website": "http://www.johndoe.com",
       "ImageUrl": "https://tummytamer.app/images/dana_d.jpg",
-      "Bio": "I am a registered dietitian and certified health coach with a variety of experiences and areas of expertise based on my 13 years of experience counseling patients and families on nutrition. I support my patients (of ALL ages) in making changes at a pace that is comfortable for them and help when it's time to dig in to discover inner motivation. My patients tell me they love my conversational demeanor and practical approach to nutrition, and I thoroughly enjoy helping them discover the eating style that will help them feel comfortable, thrive in health, and succeed in all areas of life.",
+      "Bio": "I have a variety of experiences and areas of expertise based on my 13 years of counseling patients and families on nutrition. I support my patients (of ALL ages) in making changes at a pace that is comfortable for them and help when it's time to dig in to discover inner motivation. My patients tell me they love my conversational demeanor and practical approach to nutrition, and I thoroughly enjoy helping them discover the eating style that will help them feel comfortable, thrive in health, and succeed in all areas of life.",
       "Specialties": ["Pediatrics", "Lactation", "Diabetes Prevention and Education", "IBS and Digestive Issues"],
       "Services": ["90-min consultation", "60-min follow-up", "30-min follow-up"],
       "States": ["AZ", "CA", "CO", "MA", "MD", "NH", "NV", "OR", "VT"]
@@ -27,7 +27,7 @@
       "Email": "bob.johnson@example.com",
       "Website": "https://www.healthenpointe.com/",
       "ImageUrl": "http://tummytamer.app/images/nasira_c.jpg",
-      "Bio": "Nasira is a registered dietitian, fitness expert, and nutrition educator. She was drawn to nutrition and public health as a result of her diverse background in science, fine arts, and fitness. Nasira was a classical ballet dancer and trained with Pacific Northwest Ballet in Seattle, WA, the University of Arizona School of Dance in Tucson, AZ, and attended ABT Summer Intensives in New York. Upon graduating Summa Cum Laude from the University of Arizona with a B.S. in Nutrition and a B.F.A. in dance, Nasira continued her pursuit of a nutrition career and obtained a Master’s in Public Health from UCLA and a Doctorate in Nutritional Sciences from Loma Linda University. Nasira is a certified personal trainer and NASM and Senior Fitness Specialist, as well as a certified yoga instructor.  In addition to being a private practice registered dietitian, Nasira serves as the nutritionist for the ABT Gillespie School at Segerstrom Center for the Arts, the Chapman University School of Dance, AMDA College of Performing Arts, and Vivante on the Coast Senior Community.",
+      "Bio": "I was drawn to nutrition and public health as a result of my diverse background in science, fine arts, and fitness. Trained as a classical ballet dancer, I graduating Summa Cum Laude from the University of Arizona with a B.S. in Nutrition and a B.F.A. in dance. I then obtained a Master’s in Public Health from UCLA and a Doctorate in Nutritional Sciences from Loma Linda University. I am a certified personal trainer and NASM and Senior Fitness Specialist, as well as a certified yoga instructor.  In addition to being a private practice registered dietitian, I serve as the nutritionist for the ABT Gillespie School at Segerstrom Center for the Arts, the Chapman University School of Dance, AMDA College of Performing Arts, and Vivante on the Coast Senior Community.",
       "Specialties": ["Weight management", "Longevity", "Chronic disease management", "Dance/sport nutrition"],
       "Services": ["60-min initial consultation", "50-min follow-up session"],
       "States": ["AZ", "CA", "CO", "MI", "VA"]
@@ -38,7 +38,7 @@
       "Email": "jane.smith@example.com",
       "Website": "https://tummytamer.app",
       "ImageUrl": "https://tummytamer.app/images/brianna_b.jpg",
-      "Bio": "As a registered dietitian nutritionist and personal trainer with six years of hands-on experience, I specialize in guiding clients towards achieving their body composition and overall wellness goals through the cultivation of sustainable lifestyle choices. Tailoring my approach to meet both your needs and budget, I provide tiered packaging options for a personalized and effective wellness journey.",
+      "Bio": "With six years of hands-on experience, I specialize in guiding clients towards achieving their body composition and overall wellness goals through the cultivation of sustainable lifestyle choices. Tailoring my approach to meet both your needs and budget, I provide tiered packaging options for a personalized and effective wellness journey.",
       "Specialties": ["Weight loss/gain", "Overall wellness", "Food-first approach", "Recipe development", "Building muscle"],
       "Services": ["1-on-1 personal training (online)", "Nutrition counseling"],
       "States": ["FL", "Personal Training: All"]
@@ -49,7 +49,7 @@
       "Email": "jane.smith@example.com",
       "Website": "https://stephaniecohendietitian.business.site/",
       "ImageUrl": "https://tummytamer.app/images/stephanie_c.jpg",
-      "Bio": "I am a Registered Dietitian Nutritionist and a Certified Eating Disorder Specialist and Consultant. I enjoy working with clients to develop a healthier relationship with food. My goal is to help you feel better in your body and feel nourished, energetic and satisfied. I’m also experienced with the variety of circumstances that can lead to gastric or intestinal distress. Meetings with me are conversational, relaxed and fun. In addition to basic education around nutrition principles and food selection, I use several different modalities including DBT, CBT, and exposure therapy to help you meet your goals.",
+      "Bio": "I enjoy working with clients to develop a healthier relationship with food. My goal is to help you feel better in your body and feel nourished, energetic and satisfied. I’m also experienced with the variety of circumstances that can lead to gastric or intestinal distress. Meetings with me are conversational, relaxed and fun. In addition to basic education around nutrition principles and food selection, I use several different modalities including DBT, CBT, and exposure therapy to help you meet your goals.",
       "Specialties": ["Eating disorders/disordered eating", "Gastrointestinal disorders", "Digestive and gut health", "Food allergies/food intolerances", "Sensory/texture issues related to food", "Pregnancy", "Cardiovascular issues"],
       "Services": ["Individual nutritional assessments, counseling, and education", "Review of food logs/diary", "Meal planning", "Family education sessions"],
       "States": ["AZ", "CA", "CO", "GA", "IL", "MI", "VA"]
