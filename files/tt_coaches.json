@@ -1,8 +1,9 @@
 [
      {
-      "Name": "Melissa H",
+      "Name": "Melissa H.",
       "StartDate": "2024-01-01T00:00:00.000Z",
       "EndDate": "2025-01-01T00:00:00.000Z",
+	  "Location": "Oregon",
       "Certifications": ["NTP (Nutritional Therapy Practitioner)", "Health Educator", "Yoga Therapist"],
       "Email": "melissa@optimallivingsalem.com",
       "Website": "https://optimallivingsalem.com/",
@@ -12,9 +13,10 @@
       "Services": ["Individual nutritional counseling (AZ, CA, CO, MI, OR, VA)", "Therapeutic and Restorative Yoga"]
     },
     {
-      "Name": "Dana D",
+      "Name": "Dana D.",
       "StartDate": "2024-01-01T00:00:00.000Z",
       "EndDate": "2025-01-01T00:00:00.000Z",
+      "Location": "Colorado",
       "Certifications": ["RDN (Registered Dietician Nutritionist)", "CSP (Certified Specialist in Pediatric Nutrition)", "CDCES (Certified Diabetes Care & Education Specialist)", "CLC (Certified Lactation Counselor)"],
       "Email": "danadoserdn@gmail.com",
       "Website": "",
@@ -24,9 +26,10 @@
       "Services": ["Individual nutritional counseling (AZ, CA, CO, MA, MD, NH, NV, OR, VT)"]
     },
     {
-      "Name": "Nasira C",
+      "Name": "Nasira C.",
       "StartDate": "2024-01-01T00:00:00.000Z",
       "EndDate": "2025-01-01T00:00:00.000Z",
+      "Location": "California",
       "Certifications": ["DrPH (Doctor of Public Health) in Nutrition", "RD (Registered Dietitian)", "MPH (Master of Public Health) in Community Health Science", "BS (Bachelor of Science) in Nutrition Science", "BFA (Bachelor of Fine Arts) in Dance", "NASM (National Academy of Sports Medicine) Certified Personal Trainer, Senior Fitness Specialist, Corrective Exercise Specialist", "YogaFit Certified Yoga Instructor"],
       "Email": "nasiracooley@gmail.com",
       "Website": "https://www.healthenpointe.com/",
@@ -36,10 +39,11 @@
       "Services": ["Individual nutritional counseling (AZ, CA, CO, MI, VA)"]
     },
 	{
-      "Name": "Brianna B",
+      "Name": "Brianna B.",
       "StartDate": "2024-01-01T00:00:00.000Z",
       "EndDate": "2025-01-01T00:00:00.000Z",
-	  "Certifications": ["RDN (Registered Dietitian Nutritionist)", "Certified Personal Trainer"],
+      "Location": "Florida",
+      "Certifications": ["RDN (Registered Dietitian Nutritionist)", "Certified Personal Trainer"],
       "Email": "vitaminbrizzy@gmail.com",
       "Website": "",
       "ImageUrl": "https://tummytamer.app/images/brianna_b.jpg",
@@ -48,10 +52,11 @@
       "Services": ["1-on-1 personal online training", "Nutrition counseling (AZ, CA, CO, FL, MI, VA)"]
     },
 	{
-      "Name": "Stephanie C",
+      "Name": "Stephanie C.",
       "StartDate": "2024-01-01T00:00:00.000Z",
       "EndDate": "2025-01-01T00:00:00.000Z",
-	  "Certifications": ["RDN (Registered Dietitian Nutritionist)", "Certified Eating Disorder Specialist"],
+      "Location": "Georgia",
+      "Certifications": ["RDN (Registered Dietitian Nutritionist)", "Certified Eating Disorder Specialist"],
       "Email": "stephaniecohenrdn@gmail.com",
       "Website": "https://stephaniecohendietitian.business.site/",
       "ImageUrl": "https://tummytamer.app/images/stephanie_c.jpg",
@@ -60,9 +65,10 @@
       "Services": ["Individual nutritional counseling (AZ, CA, CO, GA, IL, MI, VA)", "Nutritional education (nationwide)", "Review of food logs/diary", "Meal planning", "Family education sessions"]
     },
 	{
-      "Name": "Andrea G",
+      "Name": "Andrea G.",
       "StartDate": "2024-01-01T00:00:00.000Z",
       "EndDate": "2025-01-01T00:00:00.000Z",
+      "Location": "North Carolina",
       "Certifications": ["MEd (Masters of Education) in Human Nutrition", "RDN (Registered Dietician Nutritionist)", "LDN (Licensed Dietician Nutritionist)"],
       "Email": "nutritionandrea@yahoo.com",
       "Website": "https://nutritionandrea.com/index.html",
