@@ -22,7 +22,7 @@
       "Website": "",
       "ImageUrl": "https://tummytamer.app/images/dana_d.jpg",
       "Bio": "I have a variety of experiences and areas of expertise based on my 13 years of counseling patients and families on nutrition. I support my patients (of ALL ages) in making changes at a pace that is comfortable for them and help when it's time to dig in to discover inner motivation. My patients tell me they love my conversational demeanor and practical approach to nutrition, and I thoroughly enjoy helping them discover the eating style that will help them feel comfortable, thrive in health, and succeed in all areas of life.",
-      "Specialties": ["Pediatrics", "Lactation", "Diabetes Prevention and Education", "IBS and Digestive Issues"],
+      "Specialties": ["Pediatrics", "Lactation", "Diabetes prevention and education", "IBS and digestive issues"],
       "Services": ["Individual nutritional counseling (AZ, CA, CO, MA, MD, NH, NV, OR, VT)"]
     },
     {
@@ -74,7 +74,7 @@
       "Website": "https://nutritionandrea.com/index.html",
       "ImageUrl": "https://tummytamer.app/images/andrea_g.jpg",
       "Bio": "I specialize in holistic nutrition & wellness plans based on your lifestyle & goals, using integrative, natural, and mind-body approaches. Together we determine realistic, attainable ways to reach your goals, using real food natural supplements, if needed. Our check-in meetings allow us to celebrate successes and modify your plan, if needed. I tailor everything for you with personalized coaching and support needed for your success.",
-      "Specialties": ["Gut Health & Digestion", "Inflammation & Auto-Immune Issues", "FODMAP Approaches", "Food Intolerance", "PCOS", "Insulin Resistance & Diabetes", "Fertility/Pregnancy", "Menopause Challenges", "Weight Challenges [Loss or Gain]", "Supplement & Menu Planning"],
+      "Specialties": ["Gut health & digestion", "Inflammation & auto-immune issues", "FODMAP approaches", "Food intolerance", "PCOS", "Insulin resistance & diabetes", "Fertility/Pregnancy", "Menopause challenges", "Weight challenges (loss or gain)", "Supplement & menu planning"],
       "Services": ["Individual nutritional counseling (AZ, CA, CO, MI, NC, VA)"]
     }
   ]
