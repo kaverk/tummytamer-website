@@ -2,7 +2,7 @@
      {
       "Name": "Melissa H.",
       "StartDate": "2024-01-01T00:00:00.000Z",
-      "EndDate": "2025-01-01T00:00:00.000Z",
+      "EndDate": "2029-01-01T00:00:00.000Z",
 	  "Location": "Oregon",
       "Certifications": ["NTP (Nutritional Therapy Practitioner)", "Health Educator", "Yoga Therapist"],
       "Email": "melissa@optimallivingsalem.com",
@@ -15,7 +15,7 @@
     {
       "Name": "Dana D.",
       "StartDate": "2024-01-01T00:00:00.000Z",
-      "EndDate": "2025-01-01T00:00:00.000Z",
+      "EndDate": "2029-01-01T00:00:00.000Z",
       "Location": "Colorado",
       "Certifications": ["RDN (Registered Dietician Nutritionist)", "CSP (Certified Specialist in Pediatric Nutrition)", "CDCES (Certified Diabetes Care & Education Specialist)", "CLC (Certified Lactation Counselor)"],
       "Email": "danadoserdn@gmail.com",
@@ -28,7 +28,7 @@
     {
       "Name": "Nasira C.",
       "StartDate": "2024-01-01T00:00:00.000Z",
-      "EndDate": "2025-01-01T00:00:00.000Z",
+      "EndDate": "2029-01-01T00:00:00.000Z",
       "Location": "California",
       "Certifications": ["DrPH (Doctor of Public Health) in Nutrition", "RD (Registered Dietitian)", "MPH (Master of Public Health) in Community Health Science", "BS (Bachelor of Science) in Nutrition Science", "BFA (Bachelor of Fine Arts) in Dance", "NASM (National Academy of Sports Medicine) Certified Personal Trainer, Senior Fitness Specialist, Corrective Exercise Specialist", "YogaFit Certified Yoga Instructor"],
       "Email": "nasiracooley@gmail.com",
@@ -41,7 +41,7 @@
 	{
       "Name": "Brianna B.",
       "StartDate": "2024-01-01T00:00:00.000Z",
-      "EndDate": "2025-01-01T00:00:00.000Z",
+      "EndDate": "2029-01-01T00:00:00.000Z",
       "Location": "Florida",
       "Certifications": ["RDN (Registered Dietitian Nutritionist)", "Certified Personal Trainer"],
       "Email": "vitaminbrizzy@gmail.com",
@@ -54,7 +54,7 @@
 	{
       "Name": "Stephanie C.",
       "StartDate": "2024-01-01T00:00:00.000Z",
-      "EndDate": "2025-01-01T00:00:00.000Z",
+      "EndDate": "2029-01-01T00:00:00.000Z",
       "Location": "Georgia",
       "Certifications": ["RDN (Registered Dietitian Nutritionist)", "Certified Eating Disorder Specialist"],
       "Email": "stephaniecohenrdn@gmail.com",
@@ -67,7 +67,7 @@
 	{
       "Name": "Andrea G.",
       "StartDate": "2024-01-01T00:00:00.000Z",
-      "EndDate": "2025-01-01T00:00:00.000Z",
+      "EndDate": "2029-01-01T00:00:00.000Z",
       "Location": "North Carolina",
       "Certifications": ["MEd (Masters of Education) in Human Nutrition", "RDN (Registered Dietician Nutritionist)", "LDN (Licensed Dietician Nutritionist)"],
       "Email": "nutritionandrea@yahoo.com",
