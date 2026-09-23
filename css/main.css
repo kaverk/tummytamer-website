@@ -78,6 +78,18 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6,
     --phone-width: 262.5px;
     flex: 1 1 var(--phone-width);
     max-width: var(--phone-width); }
+  .phone-frame-caption {
+    flex: 1 1 var(--phone-width);
+    max-width: var(--phone-width);
+    text-align: center; }
+  .phone-frame-caption .phone-frame {
+    width: 100%;
+    max-width: 100%; }
+  .phone-frame-caption__label {
+    margin: .5rem 0 0;
+    color: #66615b;
+    font-size: .9rem;
+    line-height: 1.0; }
   @media (max-width: 992px) {
     .aa-header h1 {
       font-size: 38px; }
@@ -110,16 +122,22 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6,
   margin-bottom: 1.5rem; }
   .aa-product-details .description .h4 {
     color: #111111;
-    padding-bottom: 1.5rem; }
+    padding-bottom: .5rem; }
 
 .aa-product-details .icon {
   float: left;
+  display: flex;
+  width: 72px;
   margin-top: 24px;
-  margin-right: 60px;
-  font-size: 3rem; }
+  margin-right: 30px;
+  font-size: 3rem;
+  justify-content: center; }
 
-.aa-product-details .icon-ai {
-  width: 18px; }
+.aa-product-details .fa-info {
+  transform: translateX(8px); }
+
+.aa-product-details .fa-wand-magic-sparkles {
+  transform: translateX(16px); }
 
 .aa-screenshots {
   background-color: #F5FAFD; }
