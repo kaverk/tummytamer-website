@@ -2,14 +2,12 @@
 <html lang="en-US">
   <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="color-scheme" content="dark">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Tummy Tamer - Terms of Use</title>
-    <link href="https://fonts.googleapis.com/css?family=Dosis:600|Roboto:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-    <link href="../css/bootstrap.min.css?ver=1.1.0" rel="stylesheet">
-    <link href="../css/paper-kit.min.css?ver=1.1.0" rel="stylesheet">
-    <link href="../css/main.css?ver=1.1.0" rel="stylesheet">
+    <link href="../css/site.css?ver=2.0.0" rel="stylesheet">
     <link rel="shortcut icon" href="../images/logo.png">
     <style>
       .apple-term-label {
@@ -18,9 +16,21 @@
     </style>
   </head>
   <body id="top">
-    <div class="mx-2 pt-2"><a href="https://tummytamer.app"><img class="img-fluid pr-3 aa-logo-img" src="../images/logo.png" alt="logo"></a><a class="navbar-brand px-0 py-0" href="https://tummytamer.app">Tummy Tamer</a></div>
-    <div class="mx-2">
-      <h1 id="terms-of-use">Terms of Use</h1>
+    <nav class="topbar is-solid" aria-label="Main">
+      <div class="topbar__inner">
+        <a class="logo" href="https://tummytamer.app"><img src="../images/logo.png" alt="">Tummy Tamer</a>
+        <ul class="menu menu--static">
+          <li><a class="btn" href="https://tummytamer.app/#download">Download Now</a></li>
+        </ul>
+      </div>
+    </nav>
+    <header class="doc-head">
+      <div class="aurora aurora--violet"></div>
+      <div class="wrap">
+        <h1 id="terms-of-use">Terms of Use</h1>
+      </div>
+    </header>
+    <main class="wrap doc">
       <p><strong>Last updated September 22, 2026</strong></p>
       <br />
       <p>This Terms of Use is the End-User License Agreement ("EULA") between you and Kaverk LLC ("Kaverk," "we," "us," or "our") for the Tummy Tamer mobile application (the "Licensed Application") and related websites, features, and services (together, the "Services"). By downloading, installing, or using the Services, you agree to this EULA. If you do not agree, do not use them.</p>
@@ -109,33 +119,24 @@
         <li>September 22, 2026 - Initial Tummy Tamer Terms of Use.</li>
       </ul>
       <br />
-    </div>
-    <div class="page-content">
-      <div>
-        <div class="container"></div>
-      </div>
-    </div>
-    <footer class="footer-black aa-footer">
-      <div class="container py-5">
-        <div class="row text-center">
-          <div class="col-md-12">
-            <a class="btn btn-link btn-neutral" href="https://www.twitter.com/tummytamerapp"><i class="fa-brands fa-x-twitter fa-2x" aria-hidden="true"></i></a>
-            <a class="btn btn-link btn-neutral" href="mailto:support@tummytamer.app"><i class="far fa-envelope fa-2x" aria-hidden="true"></i></a>
-            <div class="col-md-12">
-              <a class="mt-3 mx-3"><a class="link-secondary" href="https://tummytamer.app/terms">Terms of Use</a></a>
-              <a class="mt-3 mx-3"><a class="link-secondary" href="https://tummytamer.app/healthdisclaimer">Health Disclaimer</a></a>
-              <a class="mt-3 mx-3"><a class="link-primary" href="https://tummytamer.app/privacypolicy">Privacy Policy</a></a>
-              <p class="mt-3">Copyright &copy; Kaverk LLC 2026. All rights reserved.</p>
-            </div>
+    </main>
+    <footer class="foot">
+      <div class="wrap">
+        <div class="foot__row">
+          <a class="logo" href="https://tummytamer.app"><img src="../images/logo.png" alt="">Tummy Tamer</a>
+          <nav class="foot__links" aria-label="Legal">
+            <a href="https://tummytamer.app/terms">Terms of Use</a>
+            <a href="https://tummytamer.app/healthdisclaimer">Health Disclaimer</a>
+            <a href="https://tummytamer.app/privacypolicy">Privacy Policy</a>
+          </nav>
+          <div class="foot__social">
+            <a href="https://www.x.com/tummytamerapp" aria-label="Tummy Tamer on X"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
+            <a href="mailto:support@tummytamer.app" aria-label="Email support"><i class="fa-regular fa-envelope" aria-hidden="true"></i></a>
           </div>
         </div>
+        <p class="foot__copy">Copyright &copy; Kaverk LLC <span data-year>2026</span>. All rights reserved.</p>
       </div>
     </footer>
-    <script src="../scripts/jquery.min.js?ver=1.1.0"></script>
-    <script src="../scripts/jquery-ui-1.12.1.custom.min.js?ver=1.1.0"></script>
-    <script src="../scripts/popper.min.js?ver=1.1.0"></script>
-    <script src="../scripts/bootstrap.min.js?ver=1.1.0"></script>
-    <script src="../scripts/paper-kit.js?ver=1.1.0"></script>
-    <script src="../scripts/main.js?ver=1.1.0"></script>
+    <script src="../scripts/site.js?ver=2.0.0"></script>
   </body>
 </html>
