@@ -1,601 +1,449 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Tummy Tamer - Food Diary and Symptom Tracker App</title>
-  <link href="https://fonts.googleapis.com/css?family=Dosis:600|Roboto:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-  <link href="css/bootstrap.min.css?ver=1.1.0" rel="stylesheet">
-  <link href="css/paper-kit.min.css?ver=1.1.0" rel="stylesheet">
-  <link href="css/main.css?ver=1.1.0" rel="stylesheet">
-  <link rel="shortcut icon" href="images/logo.png">
-  <style>
-    table {
-      border-collapse: separate;
-      border-spacing: 0;
-      width: 100%;
-      border: 1px solid #ddd;
-      border-radius: 6px;
-    }
-
-    th,
-    td {
-      text-align: center;
-      padding: 16px;
-    }
-
-    th:first-child,
-    td:first-child {
-      text-align: left;
-    }
-
-    tr:nth-child(even) {
-      background-color: #f2f2f2
-    }
-
-    .fa-check {
-      color: green;
-    }
-
-    .fa-remove {
-      color: red;
-    }
-  </style>
-
-
+  <meta name="description" content="Track your meals and symptoms to find food sensitivities and triggers, keep tabs on reactions to GLPs and other medications, and log other daily metrics for a clear picture of your digestive health.">
+  <meta name="theme-color" content="#000000">
   <!-- Smart App Banner -->
   <meta name="apple-itunes-app" content="app-id=1575617963">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="images/logo.png">
+  <script>document.documentElement.classList.add('js');</script>
 </head>
 
 <body id="top">
-  <header>
-    <div class="aa-header">
-      <nav class="navbar navbar-expand-md navbar-transparent">
-        <div class="container"><img class="img-fluid pr-3 aa-logo-img" src="images/logo.png" alt="logo"><a
-            class="navbar-brand px-0 py-0" href="#">Tummy Tamer</a>
-          <div class="collapse navbar-collapse">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-              <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
-              <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
-              <li class="nav-item"><a class="btn btn-outline-neutral btn-round" href="#download">Download Now</a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <div class="container aa-header-content text-left text-white" style="padding: 10px 20px">
-        <div class="row">
-          <div class="col-md-6 col-sm-12">
-            <h1 class="text-white mb-0">Tummy Tamer</h1>
-            <h4 class="text-white mt-1 mb-4"> Food Diary and Symptom Tracker</h4>
-            <p style="font-size: 1.25em">Track your meals and symptoms to find food sensitivities and triggers, keep tabs on reactions to GLPs and other medications, and log other daily metrics for a clear picture of your digestive health.</p>
-            <ul class="py-1 list-unstyled">
-              <li class="py-2"><i class="fa fa-check-circle pr-4" style="font-size: 1.5em" aria-hidden="true"></i><span
-                  style="font-size: 1.25em"> Quick and easy data entry</span></li>
-              <li class="py-2"><i class="fa fa-check-circle pr-4" style="font-size: 1.5em" aria-hidden="true"></i><span
-                  style="font-size: 1.25em"> Intuitive symptom color-coding</span></li>
-              <li class="py-2"><i class="fa fa-check-circle pr-4" style="font-size: 1.5em" aria-hidden="true"></i><span
-                  style="font-size: 1.25em"> Useful AI built-in</span></li>
-              <li class="py-2"><i class="fa fa-check-circle pr-4" style="font-size: 1.5em" aria-hidden="true"></i><span
-                  style="font-size: 1.25em"> Generate PDF reports with all your data</span></li>
-            </ul>
-            <br />
-            <div class="div" style="text-align: center">
-              <a class="appStoreLink" href="https://apps.apple.com/us/app/tummy-tamer/id1575617963?platform=iphone">
-                <img class="appStore" style="margin: 0px; padding: 10px; width: 220px" src="images/appstore.png">
-              </a>
-              <a class="playStoreLink"
-                href="https://play.google.com/store/apps/details?id=com.kaverk.tummytamer&hl=en_US&gl=US">
-                <img class="playStore" style="margin: 0px; padding: 10px; width: 250px" src="images/playstore.png">
-              </a>
-            </div>
-          </div>
-          <div class="col-md-6 col-sm-12 text-right">
-            <div class="phone-frame">
-              <img class="phone-frame__screen" src="images/history.jpg" alt="Tummy Tamer history screen">
-              <img class="phone-frame__mask" src="images/iphone17_mask.png" alt="" aria-hidden="true">
-            </div>
-          </div>
-        </div>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-      </div>
-    </div>
+  <header class="site-header" data-header>
+    <nav class="nav container" aria-label="Primary">
+      <a class="brand" href="#top">
+        <img src="images/logo.png" alt="" width="36" height="36">
+        <span>Tummy Tamer</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu" data-nav-toggle>
+        <span class="nav-toggle__bar" aria-hidden="true"></span>
+        <span class="nav-toggle__bar" aria-hidden="true"></span>
+        <span class="nav-toggle__bar" aria-hidden="true"></span>
+      </button>
+      <ul class="nav-menu" id="nav-menu" data-nav-menu>
+        <li><a href="#top">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a class="btn btn--primary btn--sm" href="#download">Download Now</a></li>
+      </ul>
+    </nav>
   </header>
-  <div class="page-content">
-    <div>
-      <div class="container">
-        <div class="aa-product-details section" id="features" style="padding: 20px 0">
-          <div class="row">
-            <div class="col-lg-4 col-md-6 col-sm-12">
-              <div class="icon icon-danger"><i class="fa fa-utensils" aria-hidden="true"></i></div>
-              <div class="description">
-                <div class="h4">Quick Entry</div>
-                <p class="text-muted">No need to select food from a list. Type, speak, or snap a photo of whatever you want to track.</p>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-              <div class="icon icon-danger"><i class="fa fa-info" aria-hidden="true"></i></div>
-              <div class="description">
-                <div class="h4">The Details You Need</div>
-                <p class="text-muted">Whether you just want to enter "cheeseburger" or enter every ingredient, it's up
-                  to you.</p>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-              <div class="icon icon-danger"><i class="fa fa-chart-line" aria-hidden="true"></i></div>
-              <div class="description">
-                <div class="h4">Trends at a Glance</div>
-                <p class="text-muted">Quickly view past meal info in graphical form to spot food triggers and symptom
-                  patterns.</p>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-              <div class="icon icon-danger icon-ai"><i class="fa-solid fa-wand-magic-sparkles" aria-hidden="true"></i></div>
-              <div class="description">
-                <div class="h4">Useful AI</div>
-                <p class="text-muted">AI can identify your foods from meal photos, or analyze your entire meal/symptom history to find correlations.</p>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-              <div class="icon icon-danger"><i class="fa fa-capsules" aria-hidden="true"></i></div>
-              <div class="description">
-                <div class="h4">Go Beyond Food</div>
-                <p class="text-muted">Track other metrics that affect your gut like stress, exercise, medications, appetite,
-                  and BMs.</p>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-              <div class="icon icon-danger"><i class="fa fa-file-contract" aria-hidden="true"></i></div>
-              <div class="description">
-                <div class="h4">Generate Reports</div>
-                <p class="text-muted">Create a PDF of all your data for your own records or to share with your health
-                  professional.</p>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 offset-md-3 offset-lg-4">
-              <div class="icon icon-danger"><i class="fa fa-bell" aria-hidden="true"></i></div>
-              <div class="description">
-                <div class="h4">Meal Reminders</div>
-                <p class="text-muted">Get reminders to enter your data after each meal, or just once a day.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-<!-- YouTube Intro Video -->
-      <div style="text-align: center;">
-        <iframe width="560" height="315" style="max-width: 100%;" src="https://www.youtube.com/embed/V3q6BLeWcK8?si=XmfRWPmqg54RgqTQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-      </div>
 
-      <div class="container">
-        <hr />
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="aurora" aria-hidden="true">
+        <span class="aurora__blob aurora__blob--1"></span>
+        <span class="aurora__blob aurora__blob--2"></span>
+        <span class="aurora__blob aurora__blob--3"></span>
       </div>
+      <div class="hero__grid container">
+        <div class="hero__copy">
+          <p class="eyebrow"><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span> Food Diary and Symptom Tracker</p>
+          <h1 id="hero-title" class="hero__title">Tummy <span class="gradient-text">Tamer</span></h1>
+          <p class="hero__lead">Track your meals and symptoms to find food sensitivities and triggers, keep tabs on reactions to GLPs and other medications, and log other daily metrics for a clear picture of your digestive health.</p>
+          <ul class="checklist checklist--hero">
+            <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Quick and easy data entry</li>
+            <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Intuitive symptom color-coding</li>
+            <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Useful AI built-in</li>
+            <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Generate PDF reports with all your data</li>
+          </ul>
+          <div class="store-badges">
+            <a class="store-badge" href="https://apps.apple.com/us/app/tummy-tamer/id1575617963?platform=iphone">
+              <img src="images/appstore.png" alt="Download on the App Store" width="440" height="150">
+            </a>
+            <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.kaverk.tummytamer&amp;hl=en_US&amp;gl=US">
+              <img src="images/playstore.png" alt="Get it on Google Play" width="510" height="150">
+            </a>
+          </div>
+        </div>
 
-      <div class="aa-product-features section" style="padding: 20px 0">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12 col-sm-12">
-              <h2 class="title mb-2">Why Tummy Tamer?</h2>
-              <p class="pt-2" style="font-size: 1.25em"><i>Gluten-free, dairy-free, IBS, FODMAP, inflammation, keto, fasting... but what works for YOU?</i></p>
-              <p class="pt-2" style="font-size: 1.25em">Track meals, symptoms, medications, and daily factors to spot food sensitivities, reactions to medications, and patterns in your health.</p>
-              <p class="pt-3 pb-1" style="font-size: 1.25em">Tummy Tamer can help you understand:</p>
-              <ul class="py-1 list-unstyled">
-                <li class="py-1"><i class="fa fa-check-circle pr-4" style="font-size: 1.5em" aria-hidden="true"></i><span style="font-size: 1.25em"> <strong>Stomach symptoms</strong><br>Compare food, drinks, medications, stress, cycles, and events with your symptoms.</span></li>
-                <li class="py-2"><i class="fa fa-check-circle pr-4" style="font-size: 1.5em" aria-hidden="true"></i><span style="font-size: 1.25em"> <strong>Medication reactions</strong><br>Track how GLP-1 and other medications may affect your body.</span></li>
-                <li class="py-2"><i class="fa fa-check-circle pr-4" style="font-size: 1.5em" aria-hidden="true"></i><span style="font-size: 1.25em"> <strong>Daily patterns</strong><br>Connect meals and activities with changes in mood, energy, and workouts.</span></li>
-              </ul>
-            </div>
+        <div class="fan" aria-label="Tummy Tamer app screens">
+          <div class="phone fan__phone fan__phone--left">
+            <img src="images/journal.jpg" alt="Tummy Tamer journal screen with today's meals" width="700" height="1522" fetchpriority="low">
           </div>
+          <div class="phone fan__phone fan__phone--right">
+            <img src="images/analysis-graphs.jpg" alt="Tummy Tamer analysis graphs screen" width="700" height="1522" fetchpriority="low">
+          </div>
+          <div class="phone fan__phone fan__phone--center">
+            <img src="images/history.jpg" alt="Tummy Tamer history screen with a color-coded calendar" width="700" height="1522" fetchpriority="high">
+          </div>
+          <div class="float-tag float-tag--a" aria-hidden="true"><span class="dot dot--green"></span> Felt great</div>
+          <div class="float-tag float-tag--b" aria-hidden="true"><span class="dot dot--yellow"></span> So-so</div>
+          <div class="float-tag float-tag--c" aria-hidden="true"><span class="dot dot--red"></span> Rough</div>
         </div>
       </div>
-      <div class="container">
-        <hr />
-      </div>
-      <div class="aa-product-features section" style="padding: 20px 0">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 col-sm-12 order-2 order-md-1">
-              <div class="phone-frame-group phone-frame-group--small">
-                <div class="phone-frame">
-                  <img class="phone-frame__screen" src="images/journal.jpg" alt="Tummy Tamer quick entry screen">
-                  <img class="phone-frame__mask" src="images/iphone17_mask.png" alt="" aria-hidden="true">
-                </div>
-                <div class="phone-frame">
-                  <img class="phone-frame__screen" src="images/ai-entry.jpg" alt="Tummy Tamer meal entry screen with AI-identified foods from a photo">
-                  <img class="phone-frame__mask" src="images/iphone17_mask.png" alt="" aria-hidden="true">
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-sm-12 order-1 order-md-2">
-              <h2 class="title mb-0">QUICK ENTRY</h2>
-              <p class="h3 pt-0 mt-0 mb-3" style="vertical-align: top"><i>saves you time</i></p>
-              <ul class="py-1 list-unstyled">
-                <li class="py-2"><i class="fa fa-check-circle pr-4" style="font-size: 1.5em"
-                    aria-hidden="true"></i><span style="font-size: 1.25em"> Snap a <b><span
-                        style="color: purple"><b>meal photo</b></span></b> for <b><span
-                        style="color: purple"><b>AI</b></span></b> to identify your foods, or <b><span
-                        style="color: purple"><b>type</b></span></b> or use <b><span style="color: purple"><b>voice
-                          entry</b></span></b></span></li>
-                <li class="py-2"><i class="fa fa-check-circle pr-4" style="font-size: 1.5em"
-                    aria-hidden="true"></i><span style="font-size: 1.25em"> Rate how you felt after with a <b><span
-                        style="color: purple"><b>single tap</b></span></b></span></li>
-                <li class="py-2"><i class="fa fa-check-circle pr-4" style="font-size: 1.5em"
-                    aria-hidden="true"></i><span style="font-size: 1.25em"> Track high-level <b><span
-                        style="color: purple"><b>foods</b></span></b> or low-level <b><span
-                        style="color: purple"><b>ingredients</b></span></b> &mdash; all fields are <b><span
-                        style="color: purple"><b>optional</b></span></b></span></li>
-                <li class="py-2"><i class="fa fa-check-circle pr-4" style="font-size: 1.5em"
-                    aria-hidden="true"></i><span style="font-size: 1.25em"> Record <b><span style="color: purple"><b>day
-                          metrics</b></span></b> like stress, exercise, weight, BMs, calendar events, and your
-                    cycles</span></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <hr />
-      </div>
-      <div class="aa-product-features section" style="padding: 20px 0">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 col-sm-12">
-              <h2 class="title mb-0">HISTORY &amp; ANALYSIS</h2>
-              <p class="h3 pt-0 mt-0 mb-3"><i>are crucial to understanding reactions and trends</i></p>
-              <ul class="py-1 list-unstyled">
-                <li class="py-2"><i class="fa fa-check-circle pr-4" style="font-size: 1.5em"
-                    aria-hidden="true"></i><span style="font-size: 1.25em"> See <b><span style="color: purple"><b>all
-                          your data</b></span></b> in a calendar with <b><span
-                        style="color: purple"><b>color-coded</b></span></b> days showing how you felt</span></li>
-                <li class="py-2"><i class="fa fa-check-circle pr-4" style="font-size: 1.5em"
-                    aria-hidden="true"></i><span style="font-size: 1.25em"> Chart <b><span
-                        style="color: purple"><b>day metrics over time</b></span></b> like sleep, stress, and weight</span></li>
-                <li class="py-2"><i class="fa fa-check-circle pr-4" style="font-size: 1.5em"
-                    aria-hidden="true"></i><span style="font-size: 1.25em"> Let <b><span
-                        style="color: purple"><b>AI analysis</b></span></b> find correlations across your entire history,
-                    with your data handled <b><span style="color: purple"><b>privately and securely</b></span></b></span></li>
-                <li class="py-2"><i class="fa fa-check-circle pr-4" style="font-size: 1.5em"
-                    aria-hidden="true"></i><span style="font-size: 1.25em"> <b><span
-                        style="color: purple"><b>Search</b></span></b> for terms to see highlighted matches across all
-                    meals and days</span></li>
-              </ul>
-            </div>
-            <div class="col-md-6 col-sm-12">
-              <div class="phone-frame-group phone-frame-group--small">
-                <div class="phone-frame-caption">
-                  <div class="phone-frame">
-                    <img class="phone-frame__screen" src="images/history.jpg" alt="Tummy Tamer history screen">
-                    <img class="phone-frame__mask" src="images/iphone17_mask.png" alt="" aria-hidden="true">
-                  </div>
-                  <div class="phone-frame-caption__label"><i>History</i></div>
-                </div>
-                <div class="phone-frame-caption">
-                  <div class="phone-frame">
-                    <img class="phone-frame__screen" src="images/analysis-graphs.jpg" alt="Tummy Tamer analysis graphs screen">
-                    <img class="phone-frame__mask" src="images/iphone17_mask.png" alt="" aria-hidden="true">
-                  </div>
-                  <div class="phone-frame-caption__label"><i>Analysis</i></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <hr />
-      </div>
-      <div class="aa-product-features section" style="padding: 20px 0">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-5 col-sm-12 order-2 order-md-1">
-              <div class="phone-frame phone-frame--standalone">
-                <img class="phone-frame__screen" src="images/report.jpg" alt="Tummy Tamer rich reports screen">
-                <img class="phone-frame__mask" src="images/iphone17_mask.png" alt="" aria-hidden="true">
-              </div>
-            </div>
-            <div class="col-md-7 col-sm-12 order-1 order-md-2">
-              <h2 class="title mb-0">RICH REPORTS</h2>
-              <p class="h3 pt-0 mt-0 mb-3"><i>show all your data in one place</i></p>
-              <ul class="py-1 list-unstyled">
-                <li class="py-2"><i class="fa fa-check-circle pr-4" style="font-size: 1.5em"
-                    aria-hidden="true"></i><span style="font-size: 1.25em"> <b><span style="color: purple"><b>Calendar
-                          view</b></span></b> shows overall trends, followed by a <b><span
-                        style="color: purple"><b>daily breakdown</b></span></b> with all food/drink/metrics</span></li>
-                <li class="py-2"><i class="fa fa-check-circle pr-4" style="font-size: 1.5em"
-                    aria-hidden="true"></i><span style="font-size: 1.25em"> <b><span style="color: purple"><b>Symptom
-                          check-in</b></span></b> notes give context</span></li>
-                <li class="py-2"><i class="fa fa-check-circle pr-4" style="font-size: 1.5em"
-                    aria-hidden="true"></i><span style="font-size: 1.25em"> Same straight-forward <b><span
-                        style="color: purple"><b>color-coding</b></span></b> scheme as the app</span></li>
-                <li class="py-2"><i class="fa fa-check-circle pr-4" style="font-size: 1.5em"
-                    aria-hidden="true"></i><span style="font-size: 1.25em"> PDF format makes it <b><span
-                        style="color: purple"><b>easy to share</b></span></b> with your medical professional or
-                    print</span></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <hr />
-      </div>
-      <div class="aa-product-features section" style="padding: 20px 0">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 col-sm-12">
-              <h2 class="title mb-0">FOCUSED ON YOU</h2>
-              <p class="h3 pt-0 mt-0 mb-3"><i>whether it's digestion, GLP-1s, or fitness</i></p>
-              <ul class="py-1 list-unstyled">
-                <li class="py-2"><i class="fa fa-check-circle pr-4" style="font-size: 1.5em"
-                    aria-hidden="true"></i><span style="font-size: 1.25em"> Choose an <b><span
-                        style="color: purple"><b>App Focus</b></span></b>: Digestive Issues, GLP Effects, Exercise &amp;
-                    Fitness, or Custom</span></li>
-                <li class="py-2"><i class="fa fa-check-circle pr-4" style="font-size: 1.5em"
-                    aria-hidden="true"></i><span style="font-size: 1.25em"> <b><span
-                        style="color: purple"><b>Pinned metrics</b></span></b> show up every day in your Journal, ready
-                    to fill in</span></li>
-                <li class="py-2"><i class="fa fa-check-circle pr-4" style="font-size: 1.5em"
-                    aria-hidden="true"></i><span style="font-size: 1.25em"> Track <b><span
-                        style="color: purple"><b>GLP-1 effects</b></span></b> like appetite, protein intake, weight, and
-                    teeth/gum health</span></li>
-                <li class="py-2"><i class="fa fa-check-circle pr-4" style="font-size: 1.5em"
-                    aria-hidden="true"></i><span style="font-size: 1.25em"> Log <b><span
-                        style="color: purple"><b>meds &amp; supplements</b></span></b> and <b><span
-                        style="color: purple"><b>exercise</b></span></b> alongside your meals</span></li>
-              </ul>
-            </div>
-            <div class="col-md-6 col-sm-12">
-              <div class="phone-frame-group phone-frame-group--small">
-                <div class="phone-frame-caption">
-                  <div class="phone-frame">
-                    <img class="phone-frame__screen" src="images/glp-entry.jpg" alt="Tummy Tamer journal with GLP-1 day metrics">
-                    <img class="phone-frame__mask" src="images/iphone17_mask.png" alt="" aria-hidden="true">
-                  </div>
-                  <div class="phone-frame-caption__label"><i>GLP-1 journal</i></div>
-                </div>
-                <div class="phone-frame-caption">
-                  <div class="phone-frame">
-                    <img class="phone-frame__screen" src="images/glp-options.jpg" alt="Tummy Tamer App Focus and pinned metrics settings">
-                    <img class="phone-frame__mask" src="images/iphone17_mask.png" alt="" aria-hidden="true">
-                  </div>
-                  <div class="phone-frame-caption__label"><i>App Focus</i></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <hr />
-      </div>
-      <div class="aa-testimonials-section section" style="padding: 20px 0">
-        <div class="container">
-          <div class="text-center">
-            <h2 class="title mt-0">Our Story</h2>
-          </div>
-          <div class="aa-testimonials" style="margin-top: 0;margin-bottom: 0">
-            <div class="row">
-              <div class="col-md-12 col-lg-12 mb-3">
-                <div class="aa-testimonials-body px-3 py-3">
-                  <p style="font-size: 1.25em">When I started having stomach issues two years ago, my doctor was quick
-                    to prescribe meds and refer me to a gastroenterologist, but I felt like things were moving too fast.
-                    I decided to take a step back and start with a simple notebook food diary to track my food and
-                    symptoms. I learned a lot about my body through that process, but the record-keeping process was
-                    arduous and it was almost impossible to see trends. I searched for an app that allowed simple entry
-                    and easy trend analysis but couldn't find anything, so I created Tummy Tamer to help other people.
-                    My hope is that you can find the same relief I did that comes from understanding your own body and
-                    be able to "tame your tummy!"</p>
-                  <div style=" display: flex; align-items: center; justify-content: center">
-                    <div class="image">
-                      <img src="images/memoji-chris.png">
-                    </div>
-                    <div class="col-lg-2 col-md-12 col-sm-3 pt-3">
-                      <div class="h5">Chris K</div>
-                      <p class="text-muted">Lead Developer</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <hr />
-      </div>
-      <div class="aa-price-package section" style="padding: 20px 0" id="pricing">
-        <div class="container">
-          <div class="text-center">
-            <h2 class="title mt-0 mb-0">Unlock the Features You Need</h2>
-            <p class="h5 pt-0 mt-0 mb-5"><i>Tummy Tamer is free to use. Upgrade to Pro for more features.</i></p>
-          </div>
+    </section>
 
-          <div class="row justify-content-center">
-            <div class="col-md-5">
-
-              <div class="card mb-5">
-                <table>
-                  <tr>
-                    <th class="h5" style="width:50%">Features</th>
-                    <th class="h5">Basic</th>
-                    <th class="h5 bg-gradient text-white">Pro</th>
-                  </tr>
-                  <tr>
-                    <td style="font-size: 1.25em">Track food and drink</td>
-                    <td><i class="fa fa-check"></i></td>
-                    <td><i class="fa fa-check"></i></td>
-                  </tr>
-                  <tr>
-                    <td style="font-size: 1.25em">Track symptoms</td>
-                    <td><i class="fa fa-check"></i></td>
-                    <td><i class="fa fa-check"></i></td>
-                  </tr>
-                  <tr>
-                    <td style="font-size: 1.25em">Track day metrics</td>
-                    <td><i class="fa fa-check"></i></td>
-                    <td><i class="fa fa-check"></i></td>
-                  </tr>
-                  <tr>
-                    <td style="font-size: 1.25em">View all history</td>
-                    <td><i class="fa fa-check"></i></td>
-                    <td><i class="fa fa-check"></i></td>
-                  </tr>
-                  <tr>
-                    <td style="font-size: 1.25em">AI meal identification</td>
-                    <td><i class="fa fa-remove"></i></td>
-                    <td><i class="fa fa-check"></i></td>
-                  </tr>
-                  <tr>
-                    <td style="font-size: 1.25em">AI trend analysis</td>
-                    <td><i class="fa fa-remove"></i></td>
-                    <td><i class="fa fa-check"></i></td>
-                  </tr>
-                  <tr>
-                    <td style="font-size: 1.25em">Multiple profiles</td>
-                    <td><i class="fa fa-remove"></i></td>
-                    <td><i class="fa fa-check"></i></td>
-                  </tr>
-                  <tr>
-                    <td style="font-size: 1.25em">Export PDF reports</td>
-                    <td><i class="fa fa-remove"></i></td>
-                    <td><i class="fa fa-check"></i></td>
-                  </tr>
-                  <tr>
-                    <td style="font-size: 1.25em">Multiple device support<br />(cloud sync)</td>
-                    </td>
-                    <td><i class="fa fa-remove"></i></td>
-                    <td><i class="fa fa-check"></i></td>
-                  </tr>
-                  <tr>
-                    <td style="font-size: 1.25em">Add custom day metrics</td>
-                    <td><i class="fa fa-remove"></i></td>
-                    <td><i class="fa fa-check"></i></td>
-                  </tr>
-                  <tr>
-                    <td style="font-weight: bold; font-size: 1.25em;">Price</td>
-                    <td style="font-weight: bold; font-size: 1.25em;">Free</td>
-                    <td style="font-weight: bold; font-size: 1.25em;">$6.99<br/><div style="font-size:0.75em;">per month<br/><i>longer terms discounted</i></div></td>
-                  </tr>
-                </table>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-
-
+    <!-- Features -->
+    <section class="section" id="features" aria-labelledby="features-title">
       <div class="container">
-        <hr />
-      </div>
-      <div class="aa-testimonials-section section" style="padding: 20px 0">
-        <div class="container">
-          <div class="text-center">
-            <h2 class="title mt-0 mb-1">The Word On The Street...</h2>
-            <p class="h5 pt-0 mt-0 mb-5" style="vertical-align: top"><i>is that Tummy Tamer is helping people find answers and relief!</i></p>
-          </div>
-          <div class="aa-testimonials">
-            <div class="row">
-              <div class="col-md-4 mb-3">
-                <div class="aa-testimonials-body px-3 py-3">
-                  <p style="font-size: 1rem">"I've already figured something out from your app that has puzzled me a
-                    lot previously... too much cream in my morning coffees makes me bloat! Now I know what causes it.
-                    Thank you!"</p>
-                  <div class="row pt-3">
-                    <!-- Avatars created at https://getavataaars.com/ -->
-                    <div class="col-lg-5 col-md-12"><img class="img-fluid" src="images/user1.jpg" alt="Face 1" />
-                    </div>
-                    <div class="col-lg-7 col-md-12 pt-3">
-                      <div class="h5">Cathi B</div>
-                      <p class="text-muted">Colorado, USA</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4 mb-3">
-                <div class="aa-testimonials-body px-3 py-3">
-                  <p style="font-size: 1rem">"The color-coded meals provided immediate feedback to help me realize I
-                    was sensitive to gluten and sugar. The PDF reports are great, and are exactly what my nutritionist
-                    wanted to see."</p>
-                  <div class="row pt-3">
-                    <div class="col-lg-5 col-md-12"><img class="img-fluid" src="images/user2.jpg" alt="Face 2" />
-                    </div>
-                    <div class="col-lg-7 col-md-12 pt-3">
-                      <div class="h5">Nell K</div>
-                      <p class="text-muted">Oregon, USA</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4 mb-3">
-                <div class="aa-testimonials-body px-3 py-3">
-                  <p style="font-size: 1rem">"This app is extremely helpful for people like me so thank you
-                    for creating this app :)"</p>
-                  <div class="row pt-3">
-                    <div class="col-lg-5 col-md-12"><img class="img-fluid" src="images/user4.png" alt="Face 3" />
-                    </div>
-                    <div class="col-lg-7 col-md-12 pt-3">
-                      <div class="h5">Emily H</div>
-                      <p class="text-muted">USA</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="aa-download-section section bg-gradient" id="download" style="padding: 20px 0">
-        <div class="container">
-          <div class="h2 text-center text-title text-white pb-5">Download Now </div>
+        <header class="section-head">
+          <p class="eyebrow">Features</p>
+          <h2 id="features-title" class="section-title">Everything you need to <span class="gradient-text">tame your tummy</span></h2>
+        </header>
+        <ul class="feature-grid">
+          <li class="feature-card reveal">
+            <span class="feature-card__icon"><i class="fa-solid fa-utensils" aria-hidden="true"></i></span>
+            <h3>Quick Entry</h3>
+            <p>No need to select food from a list. Type, speak, or snap a photo of whatever you want to track.</p>
+          </li>
+          <li class="feature-card reveal">
+            <span class="feature-card__icon"><i class="fa-solid fa-info" aria-hidden="true"></i></span>
+            <h3>The Details You Need</h3>
+            <p>Whether you just want to enter "cheeseburger" or enter every ingredient, it's up to you.</p>
+          </li>
+          <li class="feature-card reveal">
+            <span class="feature-card__icon"><i class="fa-solid fa-chart-line" aria-hidden="true"></i></span>
+            <h3>Trends at a Glance</h3>
+            <p>Quickly view past meal info in graphical form to spot food triggers and symptom patterns.</p>
+          </li>
+          <li class="feature-card reveal">
+            <span class="feature-card__icon"><i class="fa-solid fa-wand-magic-sparkles" aria-hidden="true"></i></span>
+            <h3>Useful AI</h3>
+            <p>AI can identify your foods from meal photos, or analyze your entire meal/symptom history to find correlations.</p>
+          </li>
+          <li class="feature-card reveal">
+            <span class="feature-card__icon"><i class="fa-solid fa-capsules" aria-hidden="true"></i></span>
+            <h3>Go Beyond Food</h3>
+            <p>Track other metrics that affect your gut like stress, exercise, medications, appetite, and BMs.</p>
+          </li>
+          <li class="feature-card reveal">
+            <span class="feature-card__icon"><i class="fa-solid fa-file-contract" aria-hidden="true"></i></span>
+            <h3>Generate Reports</h3>
+            <p>Create a PDF of all your data for your own records or to share with your health professional.</p>
+          </li>
+          <li class="feature-card reveal">
+            <span class="feature-card__icon"><i class="fa-solid fa-bell" aria-hidden="true"></i></span>
+            <h3>Meal Reminders</h3>
+            <p>Get reminders to enter your data after each meal, or just once a day.</p>
+          </li>
+        </ul>
 
-          <div class="row">
-            <div class="col-md-12 col-sm-12" style="text-align: center">
-              <a class="appStoreLink" href="https://apps.apple.com/us/app/tummy-tamer/id1575617963?platform=iphone">
-                <img class="appStore" style="margin: 0px; padding: 10px; width: 220px" src="images/appstore.png">
-              </a>
-              <a class="playStoreLink"
-                href="https://play.google.com/store/apps/details?id=com.kaverk.tummytamer&hl=en_US&gl=US">
-                <img class="playStore" style="margin: 0px; padding: 10px; width: 250px" src="images/playstore.png">
-              </a>
-            </div>
+        <!-- YouTube Intro Video -->
+        <div class="video reveal">
+          <div class="video__frame">
+            <iframe src="https://www.youtube.com/embed/V3q6BLeWcK8?si=XmfRWPmqg54RgqTQ" title="Tummy Tamer intro video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>
         </div>
       </div>
+    </section>
+
+    <!-- Why -->
+    <section class="section section--why" aria-labelledby="why-title">
+      <div class="container why">
+        <div class="why__intro">
+          <p class="eyebrow">Find what works for you</p>
+          <h2 id="why-title" class="section-title">Why Tummy Tamer?</h2>
+          <p class="why__quote">Gluten-free, dairy-free, IBS, FODMAP, inflammation, keto, fasting... but what works for <span class="gradient-text">YOU?</span></p>
+          <p class="why__text">Track meals, symptoms, medications, and daily factors to spot food sensitivities, reactions to medications, and patterns in your health.</p>
+        </div>
+        <div class="why__list">
+          <p class="why__label">Tummy Tamer can help you understand:</p>
+          <ul class="why-cards">
+            <li class="why-card reveal">
+              <span class="dot dot--green dot--lg" aria-hidden="true"></span>
+              <div>
+                <h3>Stomach symptoms</h3>
+                <p>Compare food, drinks, medications, stress, cycles, and events with your symptoms.</p>
+              </div>
+            </li>
+            <li class="why-card reveal">
+              <span class="dot dot--yellow dot--lg" aria-hidden="true"></span>
+              <div>
+                <h3>Medication reactions</h3>
+                <p>Track how GLP-1 and other medications may affect your body.</p>
+              </div>
+            </li>
+            <li class="why-card reveal">
+              <span class="dot dot--red dot--lg" aria-hidden="true"></span>
+              <div>
+                <h3>Daily patterns</h3>
+                <p>Connect meals and activities with changes in mood, energy, and workouts.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Showcase: Quick Entry -->
+    <section class="section showcase" aria-labelledby="quick-entry-title">
+      <div class="container showcase__grid">
+        <div class="showcase__copy">
+          <p class="eyebrow"><span class="step">01</span> Journal</p>
+          <h2 id="quick-entry-title" class="showcase__title">Quick Entry</h2>
+          <p class="showcase__tag">saves you time</p>
+          <ul class="checklist">
+            <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i><span>Snap a <span class="chip">meal photo</span> for <span class="chip">AI</span> to identify your foods, or <span class="chip">type</span> or use <span class="chip">voice entry</span></span></li>
+            <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i><span>Rate how you felt after with a <span class="chip">single tap</span></span></li>
+            <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i><span>Track high-level <span class="chip">foods</span> or low-level <span class="chip">ingredients</span> &mdash; all fields are <span class="chip">optional</span></span></li>
+            <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i><span>Record <span class="chip">day metrics</span> like stress, exercise, weight, BMs, calendar events, and your cycles</span></li>
+          </ul>
+        </div>
+        <div class="phones carousel" tabindex="0" aria-label="Quick Entry screens (scrollable)">
+          <figure class="phones__item">
+            <div class="phone"><img src="images/journal.jpg" alt="Tummy Tamer quick entry screen" width="700" height="1522" loading="lazy"></div>
+            <figcaption>Journal</figcaption>
+          </figure>
+          <figure class="phones__item">
+            <div class="phone"><img src="images/ai-entry.jpg" alt="Tummy Tamer meal entry screen with AI-identified foods from a photo" width="700" height="1522" loading="lazy"></div>
+            <figcaption>AI meal entry</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Showcase: History & Analysis -->
+    <section class="section showcase showcase--flip" aria-labelledby="history-title">
+      <div class="container showcase__grid">
+        <div class="showcase__copy">
+          <p class="eyebrow"><span class="step">02</span> Insights</p>
+          <h2 id="history-title" class="showcase__title">History &amp; Analysis</h2>
+          <p class="showcase__tag">are crucial to understanding reactions and trends</p>
+          <ul class="checklist">
+            <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i><span>See <span class="chip">all your data</span> in a calendar with <span class="chip">color-coded</span> days showing how you felt</span></li>
+            <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i><span>Chart <span class="chip">day metrics over time</span> like sleep, stress, and weight</span></li>
+            <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i><span>Let <span class="chip">AI analysis</span> find correlations across your entire history, with your data handled <span class="chip">privately and securely</span></span></li>
+            <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i><span><span class="chip">Search</span> for terms to see highlighted matches across all meals and days</span></li>
+          </ul>
+          <div class="legend" aria-hidden="true">
+            <span><span class="dot dot--green"></span> Good</span>
+            <span><span class="dot dot--yellow"></span> Okay</span>
+            <span><span class="dot dot--red"></span> Bad</span>
+          </div>
+        </div>
+        <div class="phones carousel" tabindex="0" aria-label="History and Analysis screens (scrollable)">
+          <figure class="phones__item">
+            <div class="phone"><img src="images/history.jpg" alt="Tummy Tamer history screen" width="700" height="1522" loading="lazy"></div>
+            <figcaption>History</figcaption>
+          </figure>
+          <figure class="phones__item">
+            <div class="phone"><img src="images/analysis-graphs.jpg" alt="Tummy Tamer analysis graphs screen" width="700" height="1522" loading="lazy"></div>
+            <figcaption>Analysis</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Showcase: Rich Reports -->
+    <section class="section showcase" aria-labelledby="reports-title">
+      <div class="container showcase__grid">
+        <div class="showcase__copy">
+          <p class="eyebrow"><span class="step">03</span> Reports</p>
+          <h2 id="reports-title" class="showcase__title">Rich Reports</h2>
+          <p class="showcase__tag">show all your data in one place</p>
+          <ul class="checklist">
+            <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i><span><span class="chip">Calendar view</span> shows overall trends, followed by a <span class="chip">daily breakdown</span> with all food/drink/metrics</span></li>
+            <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i><span><span class="chip">Symptom check-in</span> notes give context</span></li>
+            <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i><span>Same straight-forward <span class="chip">color-coding</span> scheme as the app</span></li>
+            <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i><span>PDF format makes it <span class="chip">easy to share</span> with your medical professional or print</span></li>
+          </ul>
+        </div>
+        <div class="phones phones--single">
+          <figure class="phones__item">
+            <div class="phone"><img src="images/report.jpg" alt="Tummy Tamer rich reports screen" width="700" height="1522" loading="lazy"></div>
+            <figcaption>PDF report</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Showcase: Focused On You -->
+    <section class="section showcase showcase--flip" aria-labelledby="focus-title">
+      <div class="container showcase__grid">
+        <div class="showcase__copy">
+          <p class="eyebrow"><span class="step">04</span> Personalized</p>
+          <h2 id="focus-title" class="showcase__title">Focused On You</h2>
+          <p class="showcase__tag">whether it's digestion, GLP-1s, or fitness</p>
+          <ul class="checklist">
+            <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i><span>Choose an <span class="chip">App Focus</span>: Digestive Issues, GLP Effects, Exercise &amp; Fitness, or Custom</span></li>
+            <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i><span><span class="chip">Pinned metrics</span> show up every day in your Journal, ready to fill in</span></li>
+            <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i><span>Track <span class="chip">GLP-1 effects</span> like appetite, protein intake, weight, and teeth/gum health</span></li>
+            <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i><span>Log <span class="chip">meds &amp; supplements</span> and <span class="chip">exercise</span> alongside your meals</span></li>
+          </ul>
+        </div>
+        <div class="phones carousel" tabindex="0" aria-label="Focused On You screens (scrollable)">
+          <figure class="phones__item">
+            <div class="phone"><img src="images/glp-entry.jpg" alt="Tummy Tamer journal with GLP-1 day metrics" width="700" height="1522" loading="lazy"></div>
+            <figcaption>GLP-1 journal</figcaption>
+          </figure>
+          <figure class="phones__item">
+            <div class="phone"><img src="images/glp-options.jpg" alt="Tummy Tamer App Focus and pinned metrics settings" width="700" height="1522" loading="lazy"></div>
+            <figcaption>App Focus</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Story -->
+    <section class="section" aria-labelledby="story-title">
+      <div class="container">
+        <article class="story reveal">
+          <p class="eyebrow">From the maker</p>
+          <h2 id="story-title" class="section-title">Our Story</h2>
+          <blockquote class="story__quote">
+            <p>When I started having stomach issues two years ago, my doctor was quick to prescribe meds and refer me to a gastroenterologist, but I felt like things were moving too fast. I decided to take a step back and start with a simple notebook food diary to track my food and symptoms. I learned a lot about my body through that process, but the record-keeping process was arduous and it was almost impossible to see trends. I searched for an app that allowed simple entry and easy trend analysis but couldn't find anything, so I created Tummy Tamer to help other people. My hope is that you can find the same relief I did that comes from understanding your own body and be able to "tame your tummy!"</p>
+          </blockquote>
+          <div class="person">
+            <img class="person__avatar person__avatar--memoji" src="images/memoji-chris.png" alt="Memoji of Chris K" width="598" height="670" loading="lazy">
+            <div>
+              <p class="person__name">Chris K</p>
+              <p class="person__meta">Lead Developer</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="section" id="pricing" aria-labelledby="pricing-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Pricing</p>
+          <h2 id="pricing-title" class="section-title">Unlock the Features You Need</h2>
+          <p class="section-sub">Tummy Tamer is free to use. Upgrade to Pro for more features.</p>
+        </header>
+        <div class="plans">
+          <article class="plan reveal" aria-labelledby="plan-basic">
+            <h3 id="plan-basic" class="plan__name">Basic</h3>
+            <p class="plan__price"><span class="plan__amount">Free</span></p>
+            <p class="plan__note">Everything you need to start tracking.</p>
+            <ul class="plan__features">
+              <li class="yes"><i class="fa-solid fa-check" aria-hidden="true"></i><span>Track food and drink</span></li>
+              <li class="yes"><i class="fa-solid fa-check" aria-hidden="true"></i><span>Track symptoms</span></li>
+              <li class="yes"><i class="fa-solid fa-check" aria-hidden="true"></i><span>Track day metrics</span></li>
+              <li class="yes"><i class="fa-solid fa-check" aria-hidden="true"></i><span>View all history</span></li>
+              <li class="no"><i class="fa-solid fa-xmark" aria-hidden="true"></i><span><span class="sr-only">Not included: </span>AI meal identification</span></li>
+              <li class="no"><i class="fa-solid fa-xmark" aria-hidden="true"></i><span><span class="sr-only">Not included: </span>AI trend analysis</span></li>
+              <li class="no"><i class="fa-solid fa-xmark" aria-hidden="true"></i><span><span class="sr-only">Not included: </span>Multiple profiles</span></li>
+              <li class="no"><i class="fa-solid fa-xmark" aria-hidden="true"></i><span><span class="sr-only">Not included: </span>Export PDF reports</span></li>
+              <li class="no"><i class="fa-solid fa-xmark" aria-hidden="true"></i><span><span class="sr-only">Not included: </span>Multiple device support (cloud sync)</span></li>
+              <li class="no"><i class="fa-solid fa-xmark" aria-hidden="true"></i><span><span class="sr-only">Not included: </span>Add custom day metrics</span></li>
+            </ul>
+            <a class="btn btn--ghost btn--block" href="#download">Get started free</a>
+          </article>
+
+          <article class="plan plan--pro reveal" aria-labelledby="plan-pro">
+            <p class="plan__badge">Unlock everything</p>
+            <h3 id="plan-pro" class="plan__name">Pro</h3>
+            <p class="plan__price"><span class="plan__amount">$6.99</span><span class="plan__per">per month</span></p>
+            <p class="plan__note">Longer terms discounted.</p>
+            <ul class="plan__features">
+              <li class="yes"><i class="fa-solid fa-check" aria-hidden="true"></i><span>Track food and drink</span></li>
+              <li class="yes"><i class="fa-solid fa-check" aria-hidden="true"></i><span>Track symptoms</span></li>
+              <li class="yes"><i class="fa-solid fa-check" aria-hidden="true"></i><span>Track day metrics</span></li>
+              <li class="yes"><i class="fa-solid fa-check" aria-hidden="true"></i><span>View all history</span></li>
+              <li class="yes"><i class="fa-solid fa-check" aria-hidden="true"></i><span>AI meal identification</span></li>
+              <li class="yes"><i class="fa-solid fa-check" aria-hidden="true"></i><span>AI trend analysis</span></li>
+              <li class="yes"><i class="fa-solid fa-check" aria-hidden="true"></i><span>Multiple profiles</span></li>
+              <li class="yes"><i class="fa-solid fa-check" aria-hidden="true"></i><span>Export PDF reports</span></li>
+              <li class="yes"><i class="fa-solid fa-check" aria-hidden="true"></i><span>Multiple device support (cloud sync)</span></li>
+              <li class="yes"><i class="fa-solid fa-check" aria-hidden="true"></i><span>Add custom day metrics</span></li>
+            </ul>
+            <a class="btn btn--primary btn--block" href="#download">Go Pro</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section" aria-labelledby="reviews-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Testimonials</p>
+          <h2 id="reviews-title" class="section-title">The Word On The Street...</h2>
+          <p class="section-sub">is that Tummy Tamer is helping people find answers and relief!</p>
+        </header>
+        <!-- Avatars created at https://getavataaars.com/ -->
+        <ul class="reviews" tabindex="0" aria-label="Testimonials (scrollable on small screens)">
+          <li class="review reveal">
+            <span class="review__mark" aria-hidden="true"><i class="fa-solid fa-quote-left"></i></span>
+            <blockquote><p>"I've already figured something out from your app that has puzzled me a lot previously... too much cream in my morning coffees makes me bloat! Now I know what causes it. Thank you!"</p></blockquote>
+            <div class="person">
+              <img class="person__avatar" src="images/user1.jpg" alt="Avatar of Cathi B" width="528" height="560" loading="lazy">
+              <div>
+                <p class="person__name">Cathi B</p>
+                <p class="person__meta">Colorado, USA</p>
+              </div>
+            </div>
+          </li>
+          <li class="review reveal">
+            <span class="review__mark" aria-hidden="true"><i class="fa-solid fa-quote-left"></i></span>
+            <blockquote><p>"The color-coded meals provided immediate feedback to help me realize I was sensitive to gluten and sugar. The PDF reports are great, and are exactly what my nutritionist wanted to see."</p></blockquote>
+            <div class="person">
+              <img class="person__avatar" src="images/user2.jpg" alt="Avatar of Nell K" width="528" height="560" loading="lazy">
+              <div>
+                <p class="person__name">Nell K</p>
+                <p class="person__meta">Oregon, USA</p>
+              </div>
+            </div>
+          </li>
+          <li class="review reveal">
+            <span class="review__mark" aria-hidden="true"><i class="fa-solid fa-quote-left"></i></span>
+            <blockquote><p>"This app is extremely helpful for people like me so thank you for creating this app :)"</p></blockquote>
+            <div class="person">
+              <img class="person__avatar" src="images/user4.png" alt="Avatar of Emily H" width="528" height="560" loading="lazy">
+              <div>
+                <p class="person__name">Emily H</p>
+                <p class="person__meta">USA</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Download CTA -->
+    <section class="section section--cta" id="download" aria-labelledby="download-title">
+      <div class="container">
+        <div class="cta">
+          <span class="cta__dots" aria-hidden="true"><i></i><i></i><i></i></span>
+          <h2 id="download-title" class="cta__title">Download Now</h2>
+          <p class="cta__text">Start your food diary today and get a clear picture of your digestive health.</p>
+          <div class="store-badges store-badges--center">
+            <a class="store-badge" href="https://apps.apple.com/us/app/tummy-tamer/id1575617963?platform=iphone">
+              <img src="images/appstore.png" alt="Download on the App Store" width="440" height="150" loading="lazy">
+            </a>
+            <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.kaverk.tummytamer&amp;hl=en_US&amp;gl=US">
+              <img src="images/playstore.png" alt="Get it on Google Play" width="510" height="150" loading="lazy">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer">
+      <a class="brand" href="#top">
+        <img src="images/logo.png" alt="" width="36" height="36" loading="lazy">
+        <span>Tummy Tamer</span>
+      </a>
+      <div class="footer__social">
+        <a class="icon-link" href="https://www.x.com/tummytamerapp" aria-label="Tummy Tamer on X (Twitter)"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
+        <a class="icon-link" href="mailto:support@tummytamer.app" aria-label="Email support@tummytamer.app"><i class="fa-regular fa-envelope" aria-hidden="true"></i></a>
+      </div>
+      <nav class="footer__links" aria-label="Legal">
+        <a href="terms/">Terms of Use</a>
+        <a href="healthdisclaimer/">Health Disclaimer</a>
+        <a href="privacypolicy/">Privacy Policy</a>
+      </nav>
+      <p class="footer__copy">Copyright &copy; Kaverk LLC 2026. All rights reserved.</p>
     </div>
-  </div>
-  </div>
-  <footer class="footer-black aa-footer">
-    <div class="container py-5">
-      <div class="row text-center">
-        <div class="col-md-12">
-          <a class="btn btn-link btn-neutral" href="https://www.x.com/tummytamerapp"><i
-              class="fa-brands fa-x-twitter fa-2x" aria-hidden="true"></i></a>
-          <a class="btn btn-link btn-neutral" href="mailto:support@tummytamer.app"><i class="far fa-envelope fa-2x"
-              aria-hidden="true"></i></a>
-          <div class="col-md-12">
-            <a class="mt-3 mx-3"><a class="link-secondary" href="https://tummytamer.app/terms">Terms of Use</a></a>
-            <a class="mt-3 mx-3"><a class="link-secondary" href="https://tummytamer.app/healthdisclaimer">Health
-                Disclaimer</a></a>
-            <a class="mt-3 mx-3"><a class="link-primary" href="https://tummytamer.app/privacypolicy">Privacy
-                Policy</a></a>
-            <p class="mt-3">Copyright &copy; Kaverk LLC 2026. All rights reserved.</p>
-
-          </div>
-        </div>
-      </div>
   </footer>
-  <script src="scripts/jquery.min.js?ver=1.1.0"></script>
-  <script src="scripts/jquery-ui-1.12.1.custom.min.js?ver=1.1.0"></script>
-  <script src="scripts/popper.min.js?ver=1.1.0"></script>
-  <script src="scripts/bootstrap.min.js?ver=1.1.0"></script>
-  <script src="scripts/paper-kit.js?ver=1.1.0"></script>
-  <script src="scripts/main.js?ver=1.1.0"></script>
-</body>
 
+  <script src="scripts/site.js" defer></script>
+</body>
 </html>
